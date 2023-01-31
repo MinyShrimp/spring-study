@@ -22,6 +22,7 @@ public class MemberController {
 ### 에러
 `Parameter 0 of constructor in hello.hellospring.controller.MemberController required a bean of type 'hello.hellospring.service.MemberService' that could not be found.`
 * memberService가 스프링 빈으로 등록되어 있지 않다.
+
 ![img.png](img.png)
 
 ### 스프링 빈을 등록하는 2가지 방법
