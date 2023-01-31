@@ -19,6 +19,8 @@
 ```
 * 실행 : http://localhost:8080/hello-static.html
 
+![img_2.png](img_2.png)
+
 ## MVC와 템플릿 엔진
 > Model, View, Controller
 
