@@ -4,6 +4,7 @@
 * 모든 메소드의 호출 시간을 측정하고 싶다면?
 * 공통 관심 사항(cross-cutting concern) vs 핵심 관심 사항(core concern)
 * 회원 가입 시간, 회원 조회 시간을 측정하고 싶다면?
+
 ![img.png](img.png)
 
 ### MemberService 회원 조회 시간 측정 추가
@@ -57,6 +58,7 @@ public class MemberService {
 ## AOP 적용
 * AOP: Aspect Oriented Programming
 * 공통 관심 사항(cross-cutting concern) vs 핵심 관심 사항(core concern) 분리
+
 ![img_1.png](img_1.png)
 
 ### 시간 측정 AOP 등록
