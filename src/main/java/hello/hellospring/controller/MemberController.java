@@ -17,6 +17,8 @@ public class MemberController {
     @Autowired
     public MemberController(MemberService memberService) {
         this.memberService = memberService;
+        // System.out.println("memberService = " + memberService.getClass());
+        // Proxy: hello.hellospring.service.MemberService$$EnhancerBySpringCGLID$$de89008
     }
 
     @GetMapping("members/new")
